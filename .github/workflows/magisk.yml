@@ -50,7 +50,8 @@ on:
         options:
         - magisk
         - none
-
+permissions:
+  contents: write
 jobs:
   matrix:
     runs-on: ubuntu-latest
